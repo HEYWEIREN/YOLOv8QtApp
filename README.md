@@ -222,8 +222,4 @@ YOLOv8QtApp.pro
 - [OpenCV](https://opencv.org/)
 - [Qt](https://www.qt.io/)
 
-## License
 
-当前仓库中还没有附带正式的 `LICENSE` 文件。
-
-如果你准备将它公开发布到 GitHub，建议在发布前补充明确的开源协议，例如 MIT、Apache-2.0 或 GPL，以避免后续使用边界不清晰。
