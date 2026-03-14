@@ -222,4 +222,8 @@ YOLOv8QtApp.pro
 - [OpenCV](https://opencv.org/)
 - [Qt](https://www.qt.io/)
 
+## License
 
+本仓库中的源码部分采用 [MIT License](./LICENSE)。
+
+需要注意的是，仓库中引用或分发的第三方模型、依赖、图片素材和其他非原创内容，不自动归入 MIT 授权范围，仍应分别遵循它们各自的原始许可证和使用条款。
