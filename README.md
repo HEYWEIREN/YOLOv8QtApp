@@ -6,12 +6,12 @@
 
 ## 项目预览
 
-以下示例图片来自 [`example/`](./example) 目录，是真实推理结果示例。
+以下示例图片来自 [`images/`](./images) 目录，是真实推理结果示例。
 
 <p align="center">
-  <img src="./example/ex_dect.png" width="32%" alt="YOLOv8 detect demo" />
-  <img src="./example/ex_pose.png" width="32%" alt="YOLOv8 pose demo" />
-  <img src="./example/ex_seg.png" width="32%" alt="YOLOv8 segment demo" />
+  <img src="./images/ex_dect.png" width="32%" alt="YOLOv8 detect demo" />
+  <img src="./images/ex_pose.png" width="32%" alt="YOLOv8 pose demo" />
+  <img src="./images/ex_seg.png" width="32%" alt="YOLOv8 segment demo" />
 </p>
 
 ## 功能概览
