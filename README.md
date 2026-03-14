@@ -17,15 +17,15 @@
 以下图片来自 [`images/`](./images) 目录，用于展示当前项目已经跑通的典型任务效果。
 
 <p align="center">
-  <img src="./images/ex_dect.png" width="55%" alt="YOLOv8 detect demo" />
+  <img src="./images/ex_dect.png" width="40%" alt="YOLOv8 detect demo" />
 </p>
 
 <p align="center">
-  <img src="./images/ex_pose.png" width="55%" alt="YOLOv8 pose demo" />
+  <img src="./images/ex_pose.png" width="40%" alt="YOLOv8 pose demo" />
 </p>
 
 <p align="center">
-  <img src="./images/ex_seg.png" width="55%" alt="YOLOv8 segment demo" />
+  <img src="./images/ex_seg.png" width="40%" alt="YOLOv8 segment demo" />
 </p>
 
 ## 功能概览
