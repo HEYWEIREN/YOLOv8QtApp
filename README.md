@@ -1,4 +1,4 @@
-# YOLOv8QtApp
+# YOLOv8QtApp（南开大学高级语言程序设计期末课程设计）
 
 基于 Qt + C++ + OpenCV + ONNX Runtime 的 YOLOv8 多任务桌面推理 Demo，面向 Windows 桌面环境。当前工程已经打通单张图片的目标检测、实例分割、人体姿态估计和 OBB 旋转框推理流程，并提供可直接操作的 Qt 图形界面。
 
