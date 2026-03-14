@@ -66,7 +66,7 @@
 
 - Qt Widgets
 - C++17
-- OpenCV 4.x
+- OpenCV 4.8.0
 - ONNX Runtime
 - YOLOv8 ONNX models
 - Visual Studio 2022 toolchain
@@ -95,11 +95,11 @@ YOLOv8QtApp/
 
 推荐使用以下环境：
 
-- Windows 10 / 11
-- Qt 6.x
+- Windows 11
+- Qt 6.4
 - Visual Studio 2022
-- OpenCV 4.8.0 左右版本
-- ONNX Runtime 1.15.1 左右版本
+- OpenCV 4.8.0
+- ONNX Runtime 1.15.1
 - C++17
 
 > 说明：当前工程配置明显偏向 Windows + Qt Creator + MSVC。理论上可以迁移到其他环境，但仓库现状并不是跨平台即开即用。
