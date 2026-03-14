@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>YOLOv8QtApp</class>
+ <widget class="QMainWindow" name="YOLOv8QtApp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>660</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>YOLOv8QtApp</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton#btnDetect {
+    border: none;
+    border-radius: 20px; /* 圆角半径可调 */
+    background-image: url(:/assets/detect.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/assets/background.png);</string>
+   </property>
+   <widget class="QLabel" name="labelImage">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>640</width>
+      <height>640</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::Box</enum>
+    </property>
+    <property name="text">
+     <string>Please open image!</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSegment">
+    <property name="geometry">
+     <rect>
+      <x>119</x>
+      <y>670</y>
+      <width>98</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btnSegment {
+    border: none;
+    border-radius: 20px; /* 圆角半径可调 */
+    border-image: url(:/assets/segment.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDetect">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>670</y>
+      <width>98</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/assets/detct.png);
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPose">
+    <property name="geometry">
+     <rect>
+      <x>227</x>
+      <y>670</y>
+      <width>98</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btnPose {
+    border: none;
+    border-radius: 20px; /* 圆角半径可调 */
+    border-image: url(:/assets/pose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnOpenImage">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>840</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LayoutDirection::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btnOpenImage {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+QPushButton#btnOpenImage:hover {
+    border-color: #00aaff;
+    color: #00aaff;
+}</string>
+    </property>
+    <property name="text">
+     <string>open image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnClassify">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>670</y>
+      <width>98</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btnClassify {
+    border: none;
+    border-radius: 20px; /* 圆角半径可调 */
+    border-image: url(:/assets/classfiy.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnOBB">
+    <property name="geometry">
+     <rect>
+      <x>443</x>
+      <y>670</y>
+      <width>98</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btnOBB {
+    border: none;
+    border-radius: 20px; /* 圆角半径可调 */
+    border-image: url(:/assets/obb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTrack">
+    <property name="geometry">
+     <rect>
+      <x>551</x>
+      <y>670</y>
+      <width>98</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btnTrack {
+    border: none;
+    border-radius: 20px; /* 圆角半径可调 */
+    border-image: url(:/assets/track.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>660</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

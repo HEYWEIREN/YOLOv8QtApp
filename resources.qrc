@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>background.png</file>
+        <file>detct.png</file>
+        <file>segment.png</file>
+        <file>pose.png</file>
+        <file>classfiy.png</file>
+        <file>obb.png</file>
+        <file>track.png</file>
+    </qresource>
+</RCC>
